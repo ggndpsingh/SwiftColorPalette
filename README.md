@@ -10,7 +10,7 @@
 
 In your Cartfile use:
 
-github "ggndpsingh/SwiftColorPalette"
+`github "ggndpsingh/SwiftColorPalette"`
 
 # How to contribute
 
