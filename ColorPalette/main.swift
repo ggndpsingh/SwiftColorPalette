@@ -88,19 +88,16 @@ class ColorGenerator {
                 let green = (value & 0xFF00) >> 8
                 let blue = value & 0xFF
                 let content = ColorContent(r: red, g: green, b: blue)
-                print("\(color.camelCaseName)||\(color.hex)")
                 
                 let contentsPath = path.appendingPathComponent("Colors.xcassets").appendingPathComponent(color.camelCaseName + ".colorset")
                 if let string = String.init(data: content.data, encoding: .utf8) {
                     do {
                         try FileManager.default.createDirectory(atPath: contentsPath.path, withIntermediateDirectories: true, attributes: nil)
                         try string.write(toFile: contentsPath.appendingPathComponent("Contents.json").path, atomically: true, encoding: .utf8)
-//                        print(contentsPath)
                     } catch {
-                        print(error)
+                        print("Failed to generate \(color.name): " + error.localizedDescription)
                     }
                 }
-                
             }
         case .failure(let error):
             print(error.localizedDescription)
@@ -108,6 +105,5 @@ class ColorGenerator {
     }
 }
 
-//can't use the Kraken class until after the declaration
-let kraken = ColorGenerator()
-kraken.generate()
+let generator = ColorGenerator()
+generator.generate()
