@@ -4,7 +4,15 @@
 
 #### A simple extenstion to UIColor with thousands of colors ready for use.
 
-## How to contribute
+# Installation
+
+#### Carthage
+
+In your Cartfile use:
+
+github "ggndpsingh/SwiftColorPalette"
+
+# How to contribute
 
 If you'd like to contribute, follow these steps:
 - Update the `Colors.json` file with any new colors or update any existing colors.
