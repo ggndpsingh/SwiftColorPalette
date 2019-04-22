@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		CE26D4C0226C7DC00050462A /* ColorPalette.h in Headers */ = {isa = PBXBuildFile; fileRef = CE26D4BE226C7DC00050462A /* ColorPalette.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE26D4C7226C7DD10050462A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26D4C6226C7DD10050462A /* UIColor.swift */; };
-		CE26D4C9226C80110050462A /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26D4C8226C80110050462A /* Generator.swift */; };
 		CE26D4CB226C81E20050462A /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = CE26D4CA226C81E20050462A /* Colors.json */; };
 		CE26D4D5226C94340050462A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE26D4D4226C94340050462A /* Colors.xcassets */; };
+		CE26D4EC226CA58C0050462A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26D4EB226CA58C0050462A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		CE26D4BE226C7DC00050462A /* ColorPalette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorPalette.h; sourceTree = "<group>"; };
 		CE26D4BF226C7DC00050462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE26D4C6226C7DD10050462A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		CE26D4C8226C80110050462A /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		CE26D4CA226C81E20050462A /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
 		CE26D4D4226C94340050462A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CE26D4EB226CA58C0050462A /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				CE26D4BE226C7DC00050462A /* ColorPalette.h */,
+				CE26D4EB226CA58C0050462A /* main.swift */,
 				CE26D4BF226C7DC00050462A /* Info.plist */,
 				CE26D4CA226C81E20050462A /* Colors.json */,
 				CE26D4C6226C7DD10050462A /* UIColor.swift */,
-				CE26D4C8226C80110050462A /* Generator.swift */,
 				CE26D4D4226C94340050462A /* Colors.xcassets */,
 			);
 			path = ColorPalette;
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE26D4C7226C7DD10050462A /* UIColor.swift in Sources */,
-				CE26D4C9226C80110050462A /* Generator.swift in Sources */,
+				CE26D4EC226CA58C0050462A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
