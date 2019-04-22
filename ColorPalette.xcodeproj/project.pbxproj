@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0FD4E7226D7778004FF7D8 /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FD4E6226D7778004FF7D8 /* UIColor+Colors.swift */; };
 		CE26D4C0226C7DC00050462A /* ColorPalette.h in Headers */ = {isa = PBXBuildFile; fileRef = CE26D4BE226C7DC00050462A /* ColorPalette.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE26D4C7226C7DD10050462A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26D4C6226C7DD10050462A /* UIColor.swift */; };
 		CE26D4CB226C81E20050462A /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = CE26D4CA226C81E20050462A /* Colors.json */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0FD4E6226D7778004FF7D8 /* UIColor+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
 		CE26D4BB226C7DC00050462A /* ColorPalette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorPalette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE26D4BE226C7DC00050462A /* ColorPalette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorPalette.h; sourceTree = "<group>"; };
 		CE26D4BF226C7DC00050462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				CE26D4BE226C7DC00050462A /* ColorPalette.h */,
 				CE26D4EB226CA58C0050462A /* main.swift */,
+				CE0FD4E6226D7778004FF7D8 /* UIColor+Colors.swift */,
 				CE26D4BF226C7DC00050462A /* Info.plist */,
 				CE26D4CA226C81E20050462A /* Colors.json */,
 				CE26D4C6226C7DD10050462A /* UIColor.swift */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE26D4C7226C7DD10050462A /* UIColor.swift in Sources */,
+				CE0FD4E7226D7778004FF7D8 /* UIColor+Colors.swift in Sources */,
 				CE26D4EC226CA58C0050462A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
